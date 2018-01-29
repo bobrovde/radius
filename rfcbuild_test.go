@@ -22,7 +22,7 @@ func TestRFCBuild(t *testing.T) {
 			t.Run(pkg, func(t *testing.T) {
 				t.Parallel()
 
-				cmd := exec.Command("go", "build", "layeh.com/radius/"+pkg)
+				cmd := exec.Command("go", "build", "github.com/bobrovde/radius/"+pkg)
 				output, err := cmd.CombinedOutput()
 				if err != nil {
 					t.Errorf("%s: %s\n", err, output)

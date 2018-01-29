@@ -6,9 +6,9 @@ import (
 	"net"
 	"strconv"
 
-	"layeh.com/radius"
+	"github.com/bobrovde/radius"
 
-	. "layeh.com/radius/rfc3576"
+	. "github.com/bobrovde/radius/rfc3576"
 )
 
 var _ = radius.Type(0)

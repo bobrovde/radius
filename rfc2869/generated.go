@@ -6,7 +6,7 @@ import (
 	"net"
 	"strconv"
 
-	"layeh.com/radius"
+	"github.com/bobrovde/radius"
 )
 
 var _ = radius.Type(0)

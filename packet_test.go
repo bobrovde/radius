@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2865"
+	"github.com/bobrovde/radius"
+	"github.com/bobrovde/radius/rfc2865"
 )
 
 func Test_RFC2865_7_1(t *testing.T) {

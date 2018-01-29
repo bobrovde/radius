@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"layeh.com/radius"
-	. "layeh.com/radius/rfc2865"
+	"github.com/bobrovde/radius"
+	. "github.com/bobrovde/radius/rfc2865"
 )
 
 func TestPacketServer_basic(t *testing.T) {

@@ -3,7 +3,7 @@ package radius_test
 import (
 	"testing"
 
-	"layeh.com/radius"
+	"github.com/bobrovde/radius"
 )
 
 func TestNewUserPassword_length(t *testing.T) {

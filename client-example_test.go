@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"layeh.com/radius"
-	. "layeh.com/radius/rfc2865"
+	"github.com/bobrovde/radius"
+	. "github.com/bobrovde/radius/rfc2865"
 )
 
 var (
